@@ -41,6 +41,6 @@ test('Packages with a mass greater than 20kg and a dimension equal to 150cm are 
   expect(sort(10, 10, 150, 21)).toEqual("REJECTED")
 })
 
-test('Packages with a mass greater than 20kg and a volume greater than 1,000,000cm3', () => {
+test('Packages with a mass greater than 20kg and a volume greater than 1,000,000cm3 are rejected', () => {
   expect(sort(100, 100, 110, 21)).toEqual("REJECTED")
 })
