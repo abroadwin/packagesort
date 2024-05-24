@@ -27,11 +27,11 @@ test('Packages with a dimension greater than 150cm are classified as special', (
   expect(sort(10, 10, 151, 10)).toEqual("SPECIAL")
 })
 
-test('Packages with a mass equal to 20kg as special', () => {
+test('Packages with a mass equal to 20kg are classified as special', () => {
   expect(sort(10, 10, 10, 20)).toEqual("SPECIAL")
 })
 
-test('Packages with a mass greater than 20kg as special', () => {
+test('Packages with a mass greater than 20kg are classified as special', () => {
   expect(sort(10, 10, 10, 21)).toEqual("SPECIAL")
 })
 
