@@ -4,8 +4,8 @@ type PackageType = "STANDARD" | "SPECIAL" | "REJECTED"
  * Returns a package's type (standard, special or rejected) given its dimensions in centimeters and its mass in kilograms.
  *
  * @param width the package's width in centimeters
- * @param height the package's height in centemeters
- * @param length the package's length in centemeters
+ * @param height the package's height in centimeters
+ * @param length the package's length in centimeters
  * @param mass the package's mass in kilograms
  */
 export default function sort(
